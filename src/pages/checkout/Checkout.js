@@ -40,7 +40,7 @@ const Checkout = () => {
   useEffect(() => {
     // http://localhost:4242/create-payment-intent
     // Create PaymentIntent as soon as the page loads
-    fetch("https://jj-ecommerce-3.vercel.app/create-payment-intent", {
+    fetch("https://ecommerce-3-qpsy.onrender.com/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
