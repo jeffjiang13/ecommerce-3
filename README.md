@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ## admin memo
-test@test.com12341234
+test@gmail.com12341234
