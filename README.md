@@ -1,23 +1,13 @@
 <div align="center" id="top">
-  <img src="./frontend/public/ishopper.png" alt="Ecommerce 5" />
+  <img src="./public/port3.png" alt="Ecommerce" />
+
   &#xa0;
-  <br />
-  <img src="./public/port3.png" alt="Ecommerce 5" />
 
 <a href="https://jj-ecommerce-3.vercel.app">Demo</a>
 
 </div>
 
 <h1 align="center">ShopWise</h1>
-
-:dart: About
-Ecommerce 5 is an ambitious project, seeking to redefine the online shopping experience with its intuitive design and smooth functionalities. As a full-fledged e-commerce platform, it brings a wide variety of products right at your fingertips, providing a seamless journey from browsing to checkout.
-
-Built with the MERN stack, it not only showcases a front-end store for customers but also caters to the administrative needs with an integrated dashboard. The platform features a multi-vendor system, empowering independent businesses to bring their products to a broader customer base.
-
-The platform is designed with a deep understanding of the customer journey, ensuring every interaction is smooth, from browsing products to finalizing purchases. The payment system is robust and secure, enabling customers to transact with confidence.
-
-This project stands as a testament to the power of modern web technologies in creating efficient and user-friendly ecommerce solutions. Whether you're a business looking for a platform to sell your products or a developer seeking inspiration for your next project, Ecommerce 5 has something to offer.
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/jeffjiang13/ecommerce-3?color=56BEB8">
@@ -43,7 +33,13 @@ This project stands as a testament to the power of modern web technologies in cr
 
 ## :dart: About
 
-ShopWise is an ecommerce platform built with MERN stack. It provides an intuitive shopping experience, with a wide range of products, seamless checkout process, multi-vendor, admin dashboard and payment integration.
+ShopWise is an ambitious project, seeking to redefine the online shopping experience with its intuitive design and smooth functionalities. As a full-fledged e-commerce platform, it brings a wide variety of products right at your fingertips, providing a seamless journey from browsing to checkout.
+
+Built with the MERN stack, it not only showcases a front-end store for customers but also caters to the administrative needs with an integrated dashboard. The platform features a multi-vendor system, empowering independent businesses to bring their products to a broader customer base.
+
+The platform is designed with a deep understanding of the customer journey, ensuring every interaction is smooth, from browsing products to finalizing purchases. The payment system is robust and secure, enabling customers to transact with confidence.
+
+This project stands as a testament to the power of modern web technologies in creating efficient and user-friendly ecommerce solutions. Whether you're a business looking for a platform to sell your products or a developer seeking inspiration for your next project, ShopWise has something to offer.
 
 ## :sparkles: Features
 
