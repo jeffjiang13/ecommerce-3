@@ -43,7 +43,7 @@ This project stands as a testament to the power of modern web technologies in cr
 
 ## :dart: About
 
-Ecommerce 5 is an ecommerce platform built with MERN stack. It provides an intuitive shopping experience, with a wide range of products, seamless checkout process, multi-vendor, admin dashboard and payment integration.
+ShopWise is an ecommerce platform built with MERN stack. It provides an intuitive shopping experience, with a wide range of products, seamless checkout process, multi-vendor, admin dashboard and payment integration.
 
 ## :sparkles: Features
 
