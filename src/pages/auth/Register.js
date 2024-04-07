@@ -73,8 +73,8 @@ const Register = () => {
             </form>
 
             <span className={styles.register}>
-              <p>Already an account?</p>
-              <Link to="/login">Login</Link>
+              <p style={{ marginRight: '5px' }} >Already an account?</p>
+              <Link style={{ fontWeight: "bold" }} to="/login">Login</Link>
             </span>
           </div>
         </Card>

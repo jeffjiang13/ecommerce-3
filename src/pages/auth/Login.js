@@ -47,7 +47,7 @@ const Login = () => {
       });
   };
 
-  // Login with Goooglr
+  // Login with Google
   const provider = new GoogleAuthProvider();
   const signInWithGoogle = () => {
     signInWithPopup(auth, provider)
@@ -88,7 +88,7 @@ const Login = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
-              <button type="submit" className="--btn --btn-primary --btn-block">
+              <button type="submit" className="--btn --btn-danger --btn-block">
                 Login
               </button>
               <div className={styles.links}>
@@ -97,14 +97,14 @@ const Login = () => {
               <p>-- or --</p>
             </form>
             <button
-              className="--btn --btn-danger --btn-block"
+              className="--btn --btn-primary --btn-block"
               onClick={signInWithGoogle}
             >
-              <FaGoogle color="#fff" /> Login With Google
+              <FaGoogle color="#fff" style={{ marginRight: '8px' }}/>Login with Google
             </button>
             <span className={styles.register}>
-              <p>Don't have an account?</p>
-              <Link to="/register">Register</Link>
+            <p style={{ marginRight: '5px' }}>Don't have an account?</p> {/* Inline style for space */}
+              <Link style={{ fontWeight: "bold" }} to="/register">Register</Link>
             </span>
           </div>
         </Card>

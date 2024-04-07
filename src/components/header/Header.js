@@ -103,7 +103,7 @@ const Header = () => {
   const cart = (
     <span className={styles.cart}>
       <Link to="/cart">
-        Cart
+        {/* Cart */}
         <FaShoppingCart size={20} />
         <p>{cartTotalQuantity}</p>
       </Link>
@@ -137,18 +137,18 @@ const Header = () => {
               </li>
               <li>
                 <AdminOnlyLink>
-                  <Link to="/admin/home">
+                  <Link style={{ marginRight: '10px', fontWeight: "bold" }}  to="/admin/home">
                     <button className="--btn --btn-primary">Admin</button>
                   </Link>
                 </AdminOnlyLink>
               </li>
               <li>
-                <NavLink to="/" className={activeLink}>
+                <NavLink style={{ marginRight: '10px', fontWeight: "bold" }} to="/" className={activeLink}>
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/contact" className={activeLink}>
+                <NavLink style={{ fontWeight: "bold" }}  to="/contact" className={activeLink}>
                   Contact Us
                 </NavLink>
               </li>
@@ -156,23 +156,23 @@ const Header = () => {
             <div className={styles["header-right"]} onClick={hideMenu}>
               <span className={styles.links}>
                 <ShowOnLogout>
-                  <NavLink to="/login" className={activeLink}>
+                  <NavLink style={{ marginRight: '10px', fontWeight: "bold" }}  to="/login" className={activeLink}>
                     Login
                   </NavLink>
                 </ShowOnLogout>
                 <ShowOnLogin>
-                  <a href="#home" style={{ color: "#ff7722" }}>
+                  <a href="#home"  style={{ color: "#ff7722", marginRight: '10px', fontWeight: "bold" }}>
                     <FaUserCircle size={16} />
                     Hi, {displayName}
                   </a>
                 </ShowOnLogin>
                 <ShowOnLogin>
-                  <NavLink to="/order-history" className={activeLink}>
+                  <NavLink style={{ marginRight: '10px', fontWeight: "bold" }}  to="/order-history" className={activeLink}>
                     My Orders
                   </NavLink>
                 </ShowOnLogin>
                 <ShowOnLogin>
-                  <NavLink to="/" onClick={logoutUser}>
+                  <NavLink style={{ marginRight: '10px', fontWeight: "bold" }}  to="/" onClick={logoutUser}>
                     Logout
                   </NavLink>
                 </ShowOnLogin>

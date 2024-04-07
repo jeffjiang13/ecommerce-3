@@ -136,7 +136,7 @@ const Cart = () => {
             </table>
             <div className={styles.summary}>
               <button className="--btn --btn-danger" onClick={clearCart}>
-                Clear Cart
+                Clear cart
               </button>
               <div className={styles.checkout}>
                 <div>
