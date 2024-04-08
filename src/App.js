@@ -48,7 +48,7 @@ function App() {
           <Route path="/review-product/:id" element={<ReviewProducts />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

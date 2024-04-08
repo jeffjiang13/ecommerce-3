@@ -16,9 +16,9 @@ const Contact = () => {
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        "template_7xyhwen",
+        "template_76ab09d",
         form.current,
-        "user_hKs2aRfLoozcqA28UpUyz"
+        "aiOWrRF1FXzLf8_e_"
       )
       .then(
         (result) => {
@@ -41,15 +41,15 @@ const Contact = () => {
               <label>Name</label>
               <input
                 type="text"
-                name="user_name"
+                name="name"
                 placeholder="Full Name"
                 required
               />
               <label>Email</label>
               <input
                 type="email"
-                name="user_email"
-                placeholder="Your active email"
+                name="email"
+                placeholder="Your email"
                 required
               />
               <label>Subject</label>

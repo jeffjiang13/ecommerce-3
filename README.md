@@ -86,7 +86,3 @@ This project is under license from MIT. For more details, see the LICENSE file.
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## admin memo
-test@gmail.com

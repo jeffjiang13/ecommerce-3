@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.user}>
-        <FaUserCircle size={40} color="#fff" />
+        <FaUserCircle size={45} color="#fff" />
+        <br />
+
         <h4>{userName}</h4>
       </div>
       <nav>

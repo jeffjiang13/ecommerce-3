@@ -130,6 +130,8 @@ const ProductDetails = () => {
           </div>
         </Card>
       </div>
+      <br />
+      <br />
     </section>
   );
 };

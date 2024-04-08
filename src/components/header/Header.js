@@ -23,7 +23,7 @@ const logo = (
   <div className={styles.logo}>
     <Link to="/">
       <h2>
-      Shop<span>Wise</span>.
+        Shop<span>Wise</span>.
       </h2>
     </Link>
   </div>
@@ -137,18 +137,29 @@ const Header = () => {
               </li>
               <li>
                 <AdminOnlyLink>
-                  <Link style={{ marginRight: '10px', fontWeight: "bold" }}  to="/admin/home">
-                    <button className="--btn --btn-primary">Admin</button>
-                  </Link>
+                  <NavLink
+                    style={{ marginRight: "10px", fontWeight: "bold" }}
+                    to="/admin/home"
+                  >
+                    Admin
+                  </NavLink>
                 </AdminOnlyLink>
               </li>
               <li>
-                <NavLink style={{ marginRight: '10px', fontWeight: "bold" }} to="/" className={activeLink}>
+                <NavLink
+                  style={{ marginRight: "10px", fontWeight: "bold" }}
+                  to="/"
+                  className={activeLink}
+                >
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink style={{ fontWeight: "bold" }}  to="/contact" className={activeLink}>
+                <NavLink
+                  style={{ fontWeight: "bold" }}
+                  to="/contact"
+                  className={activeLink}
+                >
                   Contact Us
                 </NavLink>
               </li>
@@ -156,23 +167,42 @@ const Header = () => {
             <div className={styles["header-right"]} onClick={hideMenu}>
               <span className={styles.links}>
                 <ShowOnLogout>
-                  <NavLink style={{ marginRight: '10px', fontWeight: "bold" }}  to="/login" className={activeLink}>
+                  <NavLink
+                    style={{ marginRight: "10px", fontWeight: "bold" }}
+                    to="/login"
+                    className={activeLink}
+                  >
                     Login
                   </NavLink>
                 </ShowOnLogout>
                 <ShowOnLogin>
-                  <a href="#home"  style={{ color: "#ff7722", marginRight: '10px', fontWeight: "bold" }}>
-                    <FaUserCircle size={16} />
+                  <a
+                    href="#home"
+                    style={{
+                      color: "#ff7722",
+                      marginRight: "10px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    <FaUserCircle size={16} style={{ marginRight: "3px"}} />
                     Hi, {displayName}
                   </a>
                 </ShowOnLogin>
                 <ShowOnLogin>
-                  <NavLink style={{ marginRight: '10px', fontWeight: "bold" }}  to="/order-history" className={activeLink}>
+                  <NavLink
+                    style={{ marginRight: "10px", fontWeight: "bold" }}
+                    to="/order-history"
+                    className={activeLink}
+                  >
                     My Orders
                   </NavLink>
                 </ShowOnLogin>
                 <ShowOnLogin>
-                  <NavLink style={{ marginRight: '10px', fontWeight: "bold" }}  to="/" onClick={logoutUser}>
+                  <NavLink
+                    style={{ marginRight: "10px", fontWeight: "bold" }}
+                    to="/"
+                    onClick={logoutUser}
+                  >
                     Logout
                   </NavLink>
                 </ShowOnLogin>
